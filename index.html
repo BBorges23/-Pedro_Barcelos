@@ -20,40 +20,36 @@
             background-attachment: fixed;
             background-size: cover;
           }
+          @media screen and (max-width: 800px) {
+            .responsive{
+                display: flex !important;
+                flex-direction: column !important;
+            }
+
+          }
     </style>
     
  </head>
  <header>
-    <div class="conteiner " >
-        <div class="row d-flex align-items-center border-bottom">
-            <div class="col-6 text-start px-5" >
-                <img src="teste3.jpg" alt="Logo" width="250px">
-                
-            </div>
-            <div class="col-1 text-end">
-                <p class="fs-6 "> <a href="#" class="text-decoration-none text-dark" >CONSULTÓRIO</a> 
-                </p>
-            </div>
-                
-            <div class="col-1 text-end">
-                <p class="fs-6"> <a href="#" class="text-decoration-none text-dark" >PEDRO BARCELOS</a> 
-                </p>
-            </div>
-            <div class="col-1 text-end">
-                <p class="fs-6"> <a href="#" class="text-decoration-none text-dark" >CONSULTAS</a> 
-                </p>
-            </div>
-            <div class="col-1 text-end">
-                <p class="fs-6"> <a href="#" class="text-decoration-none text-dark" >PSICOLOGIA INFANTIL</a> 
-                </p>
-            </div>
-            <div class="col-1 text-end">
-                <p class="fs-6"> <a href="#" class="text-decoration-none text-dark" >CONTATOS</a> 
-                </p>
-            </div>
-           
+    <div class="row d-flex align-items-center border-bottom responsive">
+        <div class="col-7 text-start px-5" >
+            <img src="teste3.jpg" alt="Logo" width="250px">
+            
+        </div>
+        <div class="col-5 text-end d-flex responsive " style="justify-content: space-evenly;">
+            <p class="fs-6 "> <a href="#consultorio" class="text-decoration-none text-dark" >CONSULTÓRIO</a> 
+            </p>
+            <p class="fs-6"> <a href="#" class="text-decoration-none text-dark" >PEDRO BARCELOS</a> 
+            </p>
+            <p class="fs-6"> <a href="#pedro" class="text-decoration-none text-dark" >CONSULTAS</a> 
+            </p>
+            <p class="fs-6"> <a href="#infatil" class="text-decoration-none text-dark" >PSICOLOGIA INFANTIL</a> 
+            </p>
+            <p class="fs-6"> <a href="#contatos" class="text-decoration-none text-dark" >CONTATOS</a> 
+            </p>
         </div>
     </div>
+
  </header>
  <body>
     <!-- logo no fundo -->
