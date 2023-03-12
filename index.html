@@ -8,40 +8,46 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <title>Pedro Barcelos</title>
     <style>
-        .css-header{
-            height: 100px;
-        }
+        .row{
+            margin-right: 0 !important;
+           }
         header a.text-decoration-none:hover {
             border-bottom: 1px solid black;
+          }
+          .fundo{
+            background-image: url(fundo.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
           }
     </style>
     
  </head>
  <header>
-    <div class="conteiner css-header " >
+    <div class="conteiner " >
         <div class="row d-flex align-items-center border-bottom">
-            <div class="col-sm-6 text-start px-5">
+            <div class="col-6 text-start px-5" >
                 <img src="teste3.jpg" alt="Logo" width="250px">
                 
             </div>
-            <div class="col-sm-1 text-end">
+            <div class="col-1 text-end">
                 <p class="fs-6 "> <a href="#" class="text-decoration-none text-dark" >CONSULTÓRIO</a> 
                 </p>
             </div>
                 
-            <div class="col-sm-1 text-end">
+            <div class="col-1 text-end">
                 <p class="fs-6"> <a href="#" class="text-decoration-none text-dark" >PEDRO BARCELOS</a> 
                 </p>
             </div>
-            <div class="col-sm-1 text-end">
+            <div class="col-1 text-end">
                 <p class="fs-6"> <a href="#" class="text-decoration-none text-dark" >CONSULTAS</a> 
                 </p>
             </div>
-            <div class="col-sm-1 text-end">
+            <div class="col-1 text-end">
                 <p class="fs-6"> <a href="#" class="text-decoration-none text-dark" >PSICOLOGIA INFANTIL</a> 
                 </p>
             </div>
-            <div class="col-sm-1 text-end">
+            <div class="col-1 text-end">
                 <p class="fs-6"> <a href="#" class="text-decoration-none text-dark" >CONTATOS</a> 
                 </p>
             </div>
@@ -50,6 +56,94 @@
     </div>
  </header>
  <body>
-    
+    <!-- logo no fundo -->
+    <div class="fundo border border border-3" style="width: 100%; height: 880px; max-height: 900px;">
+        <div class="Container h-100">
+            <div class="row d-flex text-center justify-content-center align-items-center" style="height: 100%;">
+                <div class="col pt-5 ">
+                    <img src="20466582.png" alt="psi">
+                    <p class="text-white fs-2">Pedro Barcelso</p>
+                    <p class="fs-6 text-white">Psicologia</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Consultotio -->
+    <div class="container" id="consultorio">
+        <div class="row text-center pt-5">
+            <div class="col" >
+                <p class="fs-3">Consultorio</p>
+                <!-- <p class="fs-4">Cres-Ser - Espaço de Terapias Integradas</p>
+                <p class="fs-6">Serviços de saúde multidisciplinar! Aqui, você encontrará atendimentos com profissionais especializados em fonoaudiologia, psicologia, terapia ocupacional e fisioterapia. Cuidamos da sua saúde com atendimento personalizado e eficaz, buscando sempre o seu bem-estar. Agende já sua consulta e comece a cuidar da sua saúde de forma integral. Estamos esperando por você!</p>
+                -->
+                <p class="fs-6">Particular e online</p>
+                 <p class="fs-3">Pedro Barcelos</p>
+                
+                <p class="fs-6">CONSULTÓRIO DE PSICOLOGIA </p>
+            </div>
+        </div>
+    </div>
+    <!-- Consultas -->
+    <div class="fundo border border border-3" style="width: 100%; height: 880px; max-height: 250px;"></div>
+    <div class="container " id="pedro">
+        <div class="row text-center pt-5">
+            <div class="col">
+                <p class="fs-2">Consultas – Informações</p>
+                <p class="fs-">CONSULTAS ONLINE E PRESENCIAIS</p>
+                <p class="fs-">HORÁRIO:2ª a Sábado das 10h00-22h00</p>
+            </div>
+        </div>
+    </div>
+    <!-- Psicologia infantil  -->
+    <div class="fundo border border border-3" style="width: 100%; height: 880px; max-height: 250px;"></div>
+    <div class="container" id="infatil">
+        <div class="row text-center pt-5">
+            <div class="col" >
+                <p class="fs-3">A psicologia infantil -></p>
+                <p class="fs-6">É uma área da psicologia que se dedica ao estudo e tratamento dos problemas emocionais e comportamentais de crianças e adolescentes.</p>
+                <p class="fs-6">Psicólogos infantis são especializados em avaliar e tratar transtornos mentais específicos, como transtorno do déficit de atenção e hiperatividade (TDAH), transtornos de ansiedade, depressão, transtornos do espectro autista, entre outros.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Contatos -->
+    <div class="fundo border border border-3" style="width: 100%; height: 880px; max-height: 250px;"></div>
+    <div class="container " id="contatos">
+        <div class="row text-center pt-5 ">
+            <p class="fs-2">Contatos</p>
+            <div class="col" >
+                
+                <p class="fs-5">E-mail</p>
+                <p class="fs-6">pedroborgesbarcelos@gmail.com</p>
+                <p class="fs-5">Telefone- whatsapp</p>
+                <p class="fs-6">(62) 99814-9124</p>
+            </div>
+            <div class="col">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">-></span>
+                    <input type="text" class="form-control" placeholder="Nome" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="input-group">
+                    <span class="input-group-text">Mensagem</span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                  </div>
+                  <br>
+                  <button type="button" class="btn btn-light px=" style="width: 100px;">Enviar</button>
+            </div>
+        </div>
+    </div>
  </body>
+ <!-- Footer -->
+ <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom border-top pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#consultorio" class="nav-link px-2 text-muted">Consultorio</a></li>
+      <li class="nav-item"><a href="#pedro" class="nav-link px-2 text-muted">Consultas</a></li>
+      <li class="nav-item"><a href="#infatil" class="nav-link px-2 text-muted">Psicologia infantil</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Psi, Inc</p>
+  </footer>
  </html>
